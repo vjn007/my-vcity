@@ -1,4 +1,5 @@
 import React from "react";
+import "../../utils/css/scrollToTop/scrollToTop.css";
 
 const ScrollToTop = () => {
   return (
