@@ -1,0 +1,45 @@
+/* Footer Basic Styles */
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark/Light Modes */
+.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Theme Colors */
+.blue-theme {
+    --primary-color: #0d6efd;
+}
+
+.green-theme {
+    --primary-color: #198754;
+}
+
+.red-theme {
+    --primary-color: #dc3545;
+}
+
+.purple-theme {
+    --primary-color: #6f42c1;
+}
+
+/* Apply Theme Colors */
+.footer {
+    background-color: var(--primary-color);
+}
+
+.footer p {
+    color: white;
+}
