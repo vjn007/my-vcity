@@ -1,0 +1,72 @@
+/* Base Modes */
+.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Theme Colors */
+.blue-theme {
+    --primary-color: #0d6efd;
+}
+
+.green-theme {
+    --primary-color: #198754;
+}
+
+.red-theme {
+    --primary-color: #dc3545;
+}
+
+.purple-theme {
+    --primary-color: #6f42c1;
+}
+
+/* Apply to Elements */
+body,
+.navbar,
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+a,
+.btn-outline-primary {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+    margin-left: 250px;
+    /* Account for Sidebar */
+    padding: 20px;
+}
+
+/* Adjustments for Sidebar positioning */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    z-index: 1000;
+}
+
+footer {
+    margin-top: auto;
+}

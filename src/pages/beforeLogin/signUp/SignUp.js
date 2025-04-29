@@ -1,9 +1,15 @@
 import React from "react";
 
-const SignUp = ({props}) => {
+const SignUp = () => {
   return (
     <>
-      <h1>SignUp</h1>
+      <div className="row">
+        <div className="d-flex justify-content-center align-items-center">
+          <div className="container">
+            <h1>SignUp</h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
